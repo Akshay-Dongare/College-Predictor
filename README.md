@@ -8,3 +8,4 @@ The project is a college prediction system with a login page and predictor syste
 5. Install MySQL using Windows installer from https://dev.mysql.com/downloads/installer/
 6. Create user table in MySQL
 7. Navigate to `localhost/phpmyadmin` and configure your database name and table name
+8. Navigate to `localhost/College-Predictor/` to view home page of web app
