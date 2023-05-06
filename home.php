@@ -9,11 +9,11 @@
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
       .dropbtn {
-        background-color: #141414;
-        color: white;
+        background-color: rgba(255,255,255,0.8);
+        color: black;
         padding: 16px;
-        font-size: 16px;
-        border: thick solid green;
+        font-size: 18px;
+        border: thick green;
         cursor: pointer;
       }
       
