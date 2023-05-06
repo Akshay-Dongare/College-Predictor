@@ -18,8 +18,24 @@
 <div class="form" id="login">
 	<div class="box">
 	<h3>LOGIN</h3>
-	<div class="social-container">
-		<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+	<script src="https://accounts.google.com/gsi/client" async defer></script>
+	<div id="g_id_onload"
+     data-client_id="512644267547-djb16bq1ti0nhrve4p830u0gshlp1daj.apps.googleusercontent.com"
+     data-context="signin"
+     data-ux_mode="popup"
+     data-login_uri="http://localhost/College-Predictor/home.php/"
+     data-nonce=""
+     data-itp_support="true">
+	</div>
+
+	<div class="g_id_signin"  style="margin-left:125px;" 
+		data-type="standard"
+		data-shape="pill"
+		data-theme="outline"
+		data-text="continue_with"
+		data-size="large"
+		data-locale="en-US"
+		data-logo_alignment="left">
 	</div>
 	<div>
 		<?php
@@ -66,15 +82,31 @@
 		<input class="input" type="text" name="Username" placeholder="Username" required><br>
 		<input class="input" type="password" name="Password" placeholder="Password" required><br>
 		<input class="button" type="submit" name="login" value="LOGIN"><br>
-		<a id="oksignup">Sign Up here</a> | <a href="#">Forgot Password?</a>
+		<a id="oksignup">Sign Up here</a>
 	</form>
     </div>
 </div>
 <div class="form reg" id="signup">
 	<div class="box">
 	<h3>SIGN UP</h3>
-	<div class="social-container">
-		<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+	<script src="https://accounts.google.com/gsi/client" async defer></script>
+	<div id="g_id_onload"
+     data-client_id="512644267547-djb16bq1ti0nhrve4p830u0gshlp1daj.apps.googleusercontent.com"
+     data-context="signup"
+     data-ux_mode="popup"
+     data-login_uri="http://localhost/College-Predictor/home.php/"
+     data-nonce=""
+     data-itp_support="true">
+	</div>
+
+	<div class="g_id_signin"  style="margin-left:125px;" 
+		data-type="standard"
+		data-shape="pill"
+		data-theme="outline"
+		data-text="signup_with"
+		data-size="large"
+		data-locale="en-US"
+		data-logo_alignment="left">
 	</div>
 	<?php
 		if(isset($_POST['signup']))
