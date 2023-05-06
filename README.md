@@ -1,5 +1,9 @@
 # College Predictor Website
 The project is a college prediction system with a login page and predictor system. The project works on HTML, CSS, JavaScript, PHP, MySQL on Apache server using XAMPP. 
+## Note
+* Go to https://console.cloud.google.com/ and make a new project and generate a new OAuth 2.0 Client ID
+* Place this CLIENT ID in `login.php` wherever required (look for login and signup div)
+
 ## How to run
 1. Install XAMPP from https://www.apachefriends.org/download.html
 2. Navigate to `{your-XAMPP-installation-path}\xampp\htdocs\`
