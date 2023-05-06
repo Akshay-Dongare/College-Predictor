@@ -41,7 +41,7 @@
 					//echo $username,"<br>";
 					//echo $password;
 
-					$link = mysqli_connect("localhost", "root", "");
+					$link = mysqli_connect("localhost", "root", "root");
 					if (mysqli_connect_errno()) {
     					printf("Connect failed: %s\n", mysqli_connect_error());
     					exit();
@@ -86,7 +86,7 @@
 				$password1 = test_input($_POST['Password']);
 				$password2 = test_input($_POST['ConfirmPassword']);
 
-				$link = mysqli_connect("localhost", "root", "");
+				$link = mysqli_connect("localhost", "root", "root");
 				if (mysqli_connect_errno()) {
     				printf("Connect failed: %s\n", mysqli_connect_error());
     				exit();
