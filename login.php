@@ -23,7 +23,7 @@
      data-client_id="512644267547-djb16bq1ti0nhrve4p830u0gshlp1daj.apps.googleusercontent.com"
      data-context="signin"
      data-ux_mode="popup"
-     data-login_uri="http://localhost/College-Predictor/home.php/"
+     data-login_uri="http://localhost/College-Predictor/"
      data-nonce=""
      data-itp_support="true">
 	</div>
@@ -94,7 +94,7 @@
      data-client_id="512644267547-djb16bq1ti0nhrve4p830u0gshlp1daj.apps.googleusercontent.com"
      data-context="signup"
      data-ux_mode="popup"
-     data-login_uri="http://localhost/College-Predictor/home.php/"
+     data-login_uri="http://localhost/College-Predictor/"
      data-nonce=""
      data-itp_support="true">
 	</div>
