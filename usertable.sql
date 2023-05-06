@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `test_db`
+-- Database: `College_Predictor`
 --
 
 -- --------------------------------------------------------
@@ -40,8 +40,7 @@ CREATE TABLE `usertable` (
 
 INSERT INTO `usertable` (`Id`, `Username`, `Password`) VALUES
 (1, 'testuser', 'testpassword'),
-(3, 'Rishi', 'rishi'),
-(17, 'Rishi', 'Mukherjee');
+(2, 'Akshay', 'Akshay');
 
 --
 -- Indexes for dumped tables

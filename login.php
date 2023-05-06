@@ -46,11 +46,11 @@
     					printf("Connect failed: %s\n", mysqli_connect_error());
     					exit();
 					}
-					mysqli_select_db($link,"test_db");
+					mysqli_select_db($link,"College_Predictor"); //change this if your database name is different
 					$results=mysqli_query($link,"select * from usertable where Username='$username' and Password='$password'") or die("failed to connect".mysqli_connect_error());
 					$row=mysqli_fetch_array($results);
 					if ($row['Username'] == $username && $row['Password'] == $password) {
-						header("location: http://localhost/project/home.php");
+						header("location: http://localhost/College-Predictor/home.php");
 						$_SESSION['username'] = $username;
 						$_SESSION['mes'] = "true";
 					} 
@@ -74,9 +74,7 @@
 	<div class="box">
 	<h3>SIGN UP</h3>
 	<div class="social-container">
-		<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 		<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-		<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 	</div>
 	<?php
 		if(isset($_POST['signup']))
@@ -103,9 +101,9 @@
 					echo "Password's don't match";
 				else if($password1 == $password2)
 				{
-					mysqli_select_db($link,"test_db");
+					mysqli_select_db($link,"College_Predictor");
 					$results=mysqli_query($link,"insert into usertable(Username,Password) values('$usernameSub','$password1')") or die("failed to connect".mysqli_connect_error());
-					header('localhost: http://localhost/project/login.php');
+					header('localhost: http://localhost/College-Predictor/login.php');
 					echo "Data Stored" ;
 				}
 				mysqli_close($link);
