@@ -19,9 +19,7 @@
 	<div class="box">
 	<h3>LOGIN</h3>
 	<div class="social-container">
-		<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 		<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-		<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 	</div>
 	<div>
 		<?php
