@@ -7,6 +7,42 @@
 	<link rel="icon" type="x-icon" href="jagran_logo1.jpg">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+      .dropbtn {
+        background-color: #141414;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: thick solid green;
+        cursor: pointer;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #f9f9f9;
+        min-width: 151px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #f1f1f1;}
+      .dropdown:hover .dropdown-content {display: block;}
+      .dropdown:hover .dropbtn {background-color: green;}
+    </style>
 	<title> WT Mini Project (TC219,TC213,TC218) </title>
 </head>
 </head>
@@ -49,6 +85,16 @@
 			</div>
 		</form>
 	</div>
+	<div class="dropdown" style="float:right;">
+      <button class="dropbtn">List of Colleges</button>
+      <div class="dropdown-content">
+        <a>Indian Institute of Technology</a>
+		<a>National Institute of Technology</a>
+		<a>Birla Institure of Technology and Science</a>
+		<a>Sri Ramaswamy Memorial</a>
+		<a>Vellore Institute of Technology</a>
+      </div>
+    </div>
 	<?php 
 		function test_input($data)
 			{
