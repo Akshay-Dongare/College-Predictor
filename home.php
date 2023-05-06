@@ -69,9 +69,16 @@
     		</li>
   		</ul>
 	</nav>
-	<div class="background">
-		<i class="fa fa-quote-left"></i><p>Research shows that there is only half as much variation in student achievement between schools as there is among classrooms in the same school. If you want your child to get the best education possible, it is actually more important to get him assigned to a great teacher than to a great school.</p>
-	</div>
+	<div class="dropdown" style="float:right;">
+      <button class="dropbtn">List of Colleges</button>
+      <div class="dropdown-content">
+        <a>Indian Institute of Technology</a>
+		<a>National Institute of Technology</a>
+		<a>Birla Institure of Technology and Science</a>
+		<a>Sri Ramaswamy Memorial</a>
+		<a>Vellore Institute of Technology</a>
+      </div>
+    </div>
 	<div class="background">
 		<h2>College Predictor</h2><br>
 		<form method="post" action="home.php">
@@ -85,16 +92,6 @@
 			</div>
 		</form>
 	</div>
-	<div class="dropdown" style="float:right;">
-      <button class="dropbtn">List of Colleges</button>
-      <div class="dropdown-content">
-        <a>Indian Institute of Technology</a>
-		<a>National Institute of Technology</a>
-		<a>Birla Institure of Technology and Science</a>
-		<a>Sri Ramaswamy Memorial</a>
-		<a>Vellore Institute of Technology</a>
-      </div>
-    </div>
 	<?php 
 		function test_input($data)
 			{
